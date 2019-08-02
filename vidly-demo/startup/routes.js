@@ -6,6 +6,7 @@ const rentals = require('../router/rentals');
 const users = require('../router/users');
 const auth = require('../router/auth');
 const error = require('../middleware/error');
+const returns = require('../router/returns');
 
 module.exports = function(app) {
    app.use(express.json());
@@ -15,5 +16,6 @@ module.exports = function(app) {
    app.use('/api/rentals', rentals);
    app.use('/api/users', users);
    app.use('/api/auth', auth);
+   app.use('/api/returns', returns);
    app.use(error);
-}
+};
