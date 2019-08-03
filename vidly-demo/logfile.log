@@ -689,3 +689,5 @@
 {"message":"Listening on port 3000 ...","level":"info"}
 {"message":"Listening on port 3000 ...","level":"info"}
 {"message":"connected to mongodb://localhost/vidly_tests........","level":"info"}
+{"message":"Listening on port 3000 ...","level":"info"}
+{"message":"connected to mongodb://localhost/vidly........","level":"info"}
